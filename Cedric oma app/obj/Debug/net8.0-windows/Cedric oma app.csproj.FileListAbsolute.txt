@@ -1,0 +1,28 @@
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app_MarkupCompile.cache
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app_MarkupCompile.lref
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.csproj.AssemblyReference.cache
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.exe
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.deps.json
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.runtimeconfig.json
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.pdb
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.g.resources
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.AssemblyInfoInputs.cache
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.AssemblyInfo.cs
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.csproj.CoreCompileInputs.cache
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric o.525D7779.Up2Date
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\refint\Cedric oma app.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.pdb
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.genruntimeconfig.cache
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\ref\Cedric oma app.dll
