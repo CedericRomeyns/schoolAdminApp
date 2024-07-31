@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\
+C:\Users\romey\schoolAdminApp\Cedric oma app\obj\Debug\net8.0-windows\
 Cedric_oma_app
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\App.xaml
+C:\Users\romey\schoolAdminApp\Cedric oma app\App.xaml
 5-12846972
 
 15-1067774425
-241150412724
+2411781030763
 MainWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\OverzichtView.xaml;MVVM\View\StudentenView.xaml;Styles\MenuKnop.xaml;
 
-False
+True
 

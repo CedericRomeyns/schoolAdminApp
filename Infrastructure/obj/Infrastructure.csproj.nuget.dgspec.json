@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Loote\\source\\repos\\Cedric oma app\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\romey\\schoolAdminApp\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Loote\\source\\repos\\Cedric oma app\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\romey\\schoolAdminApp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Loote\\source\\repos\\Cedric oma app\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\romey\\schoolAdminApp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Loote\\source\\repos\\Cedric oma app\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Loote\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Loote\\source\\repos\\Cedric oma app\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\romey\\schoolAdminApp\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\romey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\romey\\schoolAdminApp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Loote\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\romey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
