@@ -1,14 +1,5 @@
-﻿using System.Text;
+﻿using Cedric_oma_app.MVVM.View;
 using System.Windows;
-using Microsoft.Extensions.Logging;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Cedric_oma_app
 {
@@ -17,11 +8,12 @@ namespace Cedric_oma_app
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly ILogger<MainWindow>? _logger;
+       
 
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         #region Window-Buttons
@@ -43,6 +35,21 @@ namespace Cedric_oma_app
             {
                 WindowState = WindowState.Normal;
             }
+        }
+        #endregion
+
+        #region Menu-Buttons
+        private void HomeRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            MainContentControl.Content = new HomeView();
+        }
+        private void OverzichtRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+         MainContentControl.Content = new OverzichtView();
+        }
+        private void StudentenRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            MainContentControl.Content = new StudentenView();
         }
         #endregion
 

@@ -1,20 +1,50 @@
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.csproj.AssemblyReference.cache
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Styles\MenuKnop.baml
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MVVM\View\HomeView.g.cs
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app_MarkupCompile.cache
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app_MarkupCompile.lref
-C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.csproj.AssemblyReference.cache
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MVVM\View\OverzichtView.g.cs
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MVVM\View\StudentenView.g.cs
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.exe
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.deps.json
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.runtimeconfig.json
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.dll
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Cedric oma app.pdb
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventSource.dll
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\App.baml
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MVVM\View\HomeView.baml
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MVVM\View\OverzichtView.baml
+C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\MVVM\View\StudentenView.baml
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.g.resources
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\obj\Debug\net8.0-windows\Cedric oma app.AssemblyInfoInputs.cache

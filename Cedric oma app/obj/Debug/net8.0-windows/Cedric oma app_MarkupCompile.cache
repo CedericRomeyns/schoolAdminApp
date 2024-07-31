@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Loote\source\repos\Cedric oma app\Cedric oma app\App.xaml
-11407045341
+5-12846972
 
-468401282
-204-432200477
-MainWindow.xaml;
+13192485356
+225-1062083229
+MainWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\OverzichtView.xaml;MVVM\View\StudentenView.xaml;Styles\MenuKnop.xaml;
 
-True
+False
 

@@ -7,22 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cedric oma app", "Cedric om
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{9A4686E9-7A8C-4848-8E5D-91859F540C4E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E8D63453-9EC9-4B13-8C32-32AEC5086FE0}"
-	ProjectSection(SolutionItems) = preProject
-		..\CedericRomeyns\Voedselvoorraad-Beheer\voedselVooraadBeheer\voedselbeheer-app\Core\ObservableObject.cs = ..\CedericRomeyns\Voedselvoorraad-Beheer\voedselVooraadBeheer\voedselbeheer-app\Core\ObservableObject.cs
-		..\CedericRomeyns\Voedselvoorraad-Beheer\voedselVooraadBeheer\voedselbeheer-app\Core\RelayCommand.cs = ..\CedericRomeyns\Voedselvoorraad-Beheer\voedselVooraadBeheer\voedselbeheer-app\Core\RelayCommand.cs
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{B78BC08C-1655-40EA-B59F-16C907211E2E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVM", "MVVM", "{838E4912-AB5E-45AB-B97C-8D8BF9B23711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D3CCD28A-7A69-4A43-9BF8-EA13CFAAC581}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{B32522C8-15FF-4F84-8083-D7CA23475825}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{B5A11C40-4BF2-469D-AFD9-F64CBD1590EF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{72B32588-4E7A-4BF3-83AC-E298911AF669}"
-	ProjectSection(SolutionItems) = preProject
-		..\CedericRomeyns\Voedselvoorraad-Beheer\voedselVooraadBeheer\voedselbeheer-app\Theme\MenuKnop.xaml = ..\CedericRomeyns\Voedselvoorraad-Beheer\voedselVooraadBeheer\voedselbeheer-app\Theme\MenuKnop.xaml
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.Data.SqlServer", "Ado.Data.SqlServer\Ado.Data.SqlServer.csproj", "{AE2DD9B6-DE39-4E9E-A62E-5B71C4EA0277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,17 +23,22 @@ Global
 		{3D87B928-A1EA-4CC2-9D9E-4CBEEF72C646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D87B928-A1EA-4CC2-9D9E-4CBEEF72C646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D87B928-A1EA-4CC2-9D9E-4CBEEF72C646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CCD28A-7A69-4A43-9BF8-EA13CFAAC581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CCD28A-7A69-4A43-9BF8-EA13CFAAC581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CCD28A-7A69-4A43-9BF8-EA13CFAAC581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CCD28A-7A69-4A43-9BF8-EA13CFAAC581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2DD9B6-DE39-4E9E-A62E-5B71C4EA0277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2DD9B6-DE39-4E9E-A62E-5B71C4EA0277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2DD9B6-DE39-4E9E-A62E-5B71C4EA0277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2DD9B6-DE39-4E9E-A62E-5B71C4EA0277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3D87B928-A1EA-4CC2-9D9E-4CBEEF72C646} = {9A4686E9-7A8C-4848-8E5D-91859F540C4E}
-		{E8D63453-9EC9-4B13-8C32-32AEC5086FE0} = {9A4686E9-7A8C-4848-8E5D-91859F540C4E}
-		{838E4912-AB5E-45AB-B97C-8D8BF9B23711} = {9A4686E9-7A8C-4848-8E5D-91859F540C4E}
-		{B32522C8-15FF-4F84-8083-D7CA23475825} = {838E4912-AB5E-45AB-B97C-8D8BF9B23711}
-		{B5A11C40-4BF2-469D-AFD9-F64CBD1590EF} = {838E4912-AB5E-45AB-B97C-8D8BF9B23711}
-		{72B32588-4E7A-4BF3-83AC-E298911AF669} = {9A4686E9-7A8C-4848-8E5D-91859F540C4E}
+		{D3CCD28A-7A69-4A43-9BF8-EA13CFAAC581} = {B78BC08C-1655-40EA-B59F-16C907211E2E}
+		{AE2DD9B6-DE39-4E9E-A62E-5B71C4EA0277} = {B78BC08C-1655-40EA-B59F-16C907211E2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8FC17A1-9793-45E6-AE33-3474D4FF1F49}
