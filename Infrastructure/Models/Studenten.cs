@@ -21,11 +21,9 @@ namespace Infrastructure.Models
         public string Geboortedatum { get; set; }
         public string Geslacht { get; set; }
         public bool Aanwezigheid { get; set; }
-    
         public Studenten()
         {
             
         }
-    
     }
 }

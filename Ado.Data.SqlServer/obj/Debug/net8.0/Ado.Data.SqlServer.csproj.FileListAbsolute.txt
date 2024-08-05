@@ -1,0 +1,5 @@
+C:\Users\romey\schoolAdminApp\Ado.Data.SqlServer\obj\Debug\net8.0\Ado.Data.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romey\schoolAdminApp\Ado.Data.SqlServer\obj\Debug\net8.0\Ado.Data.SqlServer.AssemblyInfoInputs.cache
+C:\Users\romey\schoolAdminApp\Ado.Data.SqlServer\obj\Debug\net8.0\Ado.Data.SqlServer.AssemblyInfo.cs
+C:\Users\romey\schoolAdminApp\Ado.Data.SqlServer\obj\Debug\net8.0\Ado.Data.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\romey\schoolAdminApp\Ado.Data.SqlServer\obj\Debug\net8.0\Ado.Data.SqlServer.sourcelink.json
