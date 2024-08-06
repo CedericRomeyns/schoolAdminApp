@@ -53,7 +53,7 @@ namespace Cedric_oma_app.MVVM.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Cedric oma app;component/mvvm/view/overzichtview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Cedric oma app;V1.0.0.0;component/mvvm/view/overzichtview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\View\OverzichtView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

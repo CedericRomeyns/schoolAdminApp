@@ -1,31 +1,31 @@
 ﻿using System.Data;
-using System.Data.SqlClient;
+
 using System.Reflection;
 
 namespace Ado.Data.SqlServer
 {
     public class SqlServerDbAccess : IDisposable
     {
-        public SqlConnection Connection { get; set; }
+        public SQLiteConnection Connection { get; set; }
 
-        public List<SqlCommand> Commands { get; set; }
+        public List<SQLiteCommand> Commands { get; set; }
 
-        public SqlServerDbAccess(SqlConnection connection)
+        public  SqlServerDbAccess(SQLiteConnection connection)
         {
             this.Connection = connection;
-            Commands = new List<SqlCommand>();
+            Commands = new List<SQLiteCommand>();
         }
 
         public SqlServerDbAccess(ConnectionStringBuilder connectionStringBuilder)
         {
             this.Connection = SqlConnectionFactory.GetConnection(connectionStringBuilder);
-            Commands = new List<SqlCommand>();
+            Commands = new List<SQLiteCommand>();
         }
 
-        public DataTable GetDataTable(SqlCommand command)
+        public DataTable GetDataTable(SQLiteCommand command)
         {
             using (command)
-            using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+            using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(command))
             using (DataTable datatable = new DataTable())
             {
                 command.CommandText = command.CommandText.Replace(" User ", " [User] ");
@@ -38,9 +38,9 @@ namespace Ado.Data.SqlServer
 
         public DataTable GetDataTable(string sql)
         {
-            using (SqlCommand command = new SqlCommand(sql, Connection))
+            using (SQLiteCommand command = new SQLiteCommand(sql, Connection))
             {
-                using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(command))
                 {
                     using (DataTable datatable = new DataTable())
                     {
@@ -55,10 +55,10 @@ namespace Ado.Data.SqlServer
 
         public List<T> Query<T>(string sql) where T : class, new()
         {
-            return Query<T>(new SqlCommand(sql));
+            return Query<T>(new SQLiteCommand(sql));
         }
 
-        public List<T> Query<T>(SqlCommand command) where T : class, new()
+        public List<T> Query<T>(SQLiteCommand command) where T : class, new()
         {
             var dt = GetDataTable(command);
 
@@ -82,7 +82,7 @@ namespace Ado.Data.SqlServer
             return targetList;
         }
 
-        public int ExecuteSql(SqlCommand command)
+        public int ExecuteSql(SQLiteCommand command)
         {
             using (command)
             {
@@ -95,9 +95,9 @@ namespace Ado.Data.SqlServer
             }
         }
 
-        public int ExecuteSql(string sql)
+        public int ExecuteSql(List<SQLiteCommand> commands, string sql)
         {
-            using (SqlCommand command = new SqlCommand(sql))
+            using (SQLiteCommand command = new SQLiteCommand(sql))
             {
                 int result = 0;
                 command.Connection = Connection;
@@ -108,9 +108,10 @@ namespace Ado.Data.SqlServer
             }
         }
 
-        public int ExecuteSql(string sqlQuery, string transactionName)
+        [Obsolete]
+        public int ExecuteSql(string sqlQuery, bool transactionName)
         {
-            using (SqlTransaction transaction = Connection.BeginTransaction(transactionName))
+            using (SQLiteTransaction transaction = Connection.BeginTransaction(transactionName))
             {
                 int result = 0;
                 string[] sqlList;
@@ -119,7 +120,7 @@ namespace Ado.Data.SqlServer
 
                 foreach (var sql in sqlList)
                 {
-                    using (SqlCommand command = new SqlCommand(sql))
+                    using (SQLiteCommand command = new SQLiteCommand(sql))
                     {
                         command.Connection = Connection;
                         command.Transaction = transaction;
@@ -132,9 +133,10 @@ namespace Ado.Data.SqlServer
             }
         }
 
-        public int ExecuteSql(List<SqlCommand>? commandList, string transactionName)
+        [Obsolete]
+        public int ExecuteSql(List<SQLiteCommand>? commandList, bool transactionName)
         {
-            using (SqlTransaction transaction = Connection.BeginTransaction(transactionName))
+            using (SQLiteTransaction transaction = Connection.BeginTransaction(transactionName))
             {
                 int scalarOutput = 0;
                 try
@@ -174,7 +176,7 @@ namespace Ado.Data.SqlServer
             }
         }
 
-        public object ExecuteScalar(SqlCommand command)
+        public object ExecuteScalar(SQLiteCommand command)
         {
             using (command)
             {
@@ -191,7 +193,7 @@ namespace Ado.Data.SqlServer
 
         public object ExecuteScalar(string sql)
         {
-            using (SqlCommand command = new SqlCommand(sql))
+            using (SQLiteCommand command = new SQLiteCommand(sql))
             {
                 object? result = null;
                 command.Connection = Connection;

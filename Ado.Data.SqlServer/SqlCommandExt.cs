@@ -1,10 +1,10 @@
-﻿using System.Data.SqlClient;
+﻿using System.Data.SQLite;
 
 namespace Ado.Data.SqlServer
 {
-    public static class SqlCommandExt
+    public static class SQLiteCommandExt
     {
-        public static SqlCommand Where(this SqlCommand sqlCommand, string sql, params SqlParameter[] sqlParameters)
+        public static SQLiteCommand Where(this SQLiteCommand sqlCommand, string sql, params SQLiteParameter[] sqlParameters)
         {
             sqlCommand.CommandText = sqlCommand.CommandText.Replace(";", "");
             sqlCommand.CommandText += $" WHERE {sql}";
@@ -15,21 +15,21 @@ namespace Ado.Data.SqlServer
             return sqlCommand;
         }
 
-        public static SqlCommand And(this SqlCommand sqlCommand, string sql)
+        public static SQLiteCommand And(this SQLiteCommand sqlCommand, string sql)
         {
             sqlCommand.CommandText = sqlCommand.CommandText.Replace(";", "");
             sqlCommand.CommandText += $" AND {sql}";
             return sqlCommand;
         }
 
-        public static SqlCommand Or(this SqlCommand sqlCommand, string sql)
+        public static SQLiteCommand Or(this SQLiteCommand sqlCommand, string sql)
         {
             sqlCommand.CommandText = sqlCommand.CommandText.Replace(";", "");
             sqlCommand.CommandText += $" OR {sql}";
             return sqlCommand;
         }
 
-        public static SqlCommand OrderBy(this SqlCommand sqlCommand, string columnName, string orderDirection = "ASC")
+        public static SQLiteCommand OrderBy(this SQLiteCommand sqlCommand, string columnName, string orderDirection = "ASC")
         {
             if (string.IsNullOrEmpty(columnName))
                 throw new ArgumentException("Order by column name cannot be empty.");

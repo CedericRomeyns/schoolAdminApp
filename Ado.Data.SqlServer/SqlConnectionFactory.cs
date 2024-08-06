@@ -1,10 +1,10 @@
-﻿using System.Data.SqlClient;
+﻿using System.Data.SQLite;
 
 namespace Ado.Data.SqlServer
 {
     public class SqlConnectionFactory
     {
-        public static void TestConnection(SqlConnection connection)
+        public static void TestConnection(SQLiteConnection connection)
         {
             try
             {
@@ -17,17 +17,17 @@ namespace Ado.Data.SqlServer
             }
         }
 
-        public static SqlConnection GetConnection(string connectionString, bool testConnection = true)
+        public static SQLiteConnection GetConnection(string connectionString, bool testConnection = true)
         {
-            var connection = new SqlConnection(connectionString);
+            var connection = new SQLiteConnection(connectionString);
             if(testConnection)
                 TestConnection(connection);
             return connection;
         }
 
-        public static SqlConnection GetConnection(ConnectionStringBuilder connectionStringBuilder)
+        public static SQLiteConnection GetConnection(ConnectionStringBuilder connectionStringBuilder)
         {
-            var connection = new SqlConnection(connectionStringBuilder.ConnectionString);
+            var connection = new SQLiteConnection(connectionStringBuilder.ConnectionString);
             TestConnection(connection);
             return connection;
         }
